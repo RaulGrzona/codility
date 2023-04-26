@@ -12,8 +12,4 @@ def bin_gap(n):
     return(maxi)
 
 print(bin_gap(14352323423450))
-#  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
-###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
 
-###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
-###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
