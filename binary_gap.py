@@ -1,6 +1,6 @@
 def bin_gap(n):
     bi = format(n,"0b")
-    cont = 0
+    cont = 2
     maxi = 0
     for s in range(bi.find("1"),bi.rfind("1")): #len(bi)):
         if bi[s]=="1":
