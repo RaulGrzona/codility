@@ -5,3 +5,6 @@ class Motor:
 
     def add_cilindradas(self, cilindradas):
         self.cilindradas = cilindradas
+
+    def __str__(self):
+        return "Ete motor es groso"
