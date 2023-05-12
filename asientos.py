@@ -3,6 +3,6 @@ class Asiento:
         self.marca_tapizado = marca_tapizado
         self.color = color
         self.material = material
-        self.calidad_material = calidad_material
+se      self.calidad_material = calidad_material
 
 
