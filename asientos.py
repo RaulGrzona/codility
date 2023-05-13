@@ -20,4 +20,6 @@ class Asiento:
         if self.material in tipos_materiales:
             return tipos_materiales[self.material]
         return 0.0
-    
+
+    def metodo_a(self):
+        return 1
