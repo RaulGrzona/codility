@@ -10,3 +10,14 @@ class Asiento:
 
     def cambiar_color(self, nuevo_color):
         self.color = nuevo_color
+
+    def evaluar_precio_segun_material(self):
+        tipos_materiales = {
+            "tipo_a": 10.0,
+            "tipo_b": 20.0
+        }
+
+        if self.material in tipos_materiales:
+            return tipos_materiales[self.material]
+        return 0.0
+    
