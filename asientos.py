@@ -26,3 +26,7 @@ class Asiento:
 
     def metodo_b(self):
         return 2
+
+    def metodo_c(self):
+        return 3
+    
