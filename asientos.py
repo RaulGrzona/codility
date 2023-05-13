@@ -21,12 +21,8 @@ class Asiento:
             return tipos_materiales[self.material]
         return 0.0
 
-    def metodo_a(self):
-        return 1
-
     def metodo_b(self):
         return 2
 
     def metodo_c(self):
         return 3
-    
