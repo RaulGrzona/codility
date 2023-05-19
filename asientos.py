@@ -28,8 +28,11 @@ class Asiento:
         return 3
 
     def repara_asiento(self, parte_reparar):
+
+        partes_rotas = {"respaldo", "asiento", "cabecera"}
         if self.parte_reparar == "respaldo":
             return "respaldo roto"
         return "asiento roto"
+
 
 
