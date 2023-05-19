@@ -1,3 +1,5 @@
+
+# Prueba hecha en develop
 def solution(S):
 
     if len(S)%2 ==1 :
@@ -17,10 +19,15 @@ def solution(S):
         else:
             return(0)
         if S[d] == "}" and pila[len(pila)-1] == "{":
-            pila.pop() 
+            pila.pop()
         else:
-            return(0) 
+            return(0)
     if len(pila)== 0 :
         return(1)
 
+
+
+
 print(solution("(()())"))
+
+
