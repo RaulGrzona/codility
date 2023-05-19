@@ -32,6 +32,8 @@ class Asiento:
         partes_rotas = {"respaldo", "asiento", "cabecera"}
         if self.parte_reparar == "respaldo":
             return "respaldo roto"
+        if self.parte_reparar == "cabecera":
+            return "cabecera rota!"
         return "asiento roto"
 
 
