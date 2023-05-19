@@ -4,6 +4,3 @@ class Motor:
         self.cilindradas = 0
 
 
-
-    def __str__(self):
-        return "Ete motor es groso"
