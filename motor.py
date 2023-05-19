@@ -9,6 +9,3 @@ class Motor:
     # raul
 
 
-
-    def __str__(self):
-        return "Ete motor es groso"
