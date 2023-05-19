@@ -3,5 +3,8 @@ class Aire_acondic
         self.refrigerante = refrigerante
         self.tip_refrig = tip_refrig
         self.cantidad_gas = cantidad_gas
-    def cambiar_material(self, nuevo_material):
-        self.material = nuevo_material
+    def cambiar_gas_refrigerante(self, nuevo_gas_refrig):
+        self.nuevo_gas_refrig = nuevo_gas_refrig
+
+        return "r34"
+
