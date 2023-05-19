@@ -27,15 +27,7 @@ class Asiento:
     def metodo_c(self):
         return 3
 
-    def repara_asiento(self, parte_reparar):
-        partes_rotas = {"respaldo", "asiento", "cabecera"}
-        if self.parte_reparar in partes_rotas :
-
-            if self.parte_reparar == "respaldo":
-                return "respaldo roto"
-            if self.parte_reparar == "cabecera":
-                return "cabecera rota!"
-        return "asiento roto"
+  
 
 
 
