@@ -11,10 +11,10 @@ class Asiento:
     def cambiar_color(self, nuevo_color):
         self.color = 4
 
-    def evaluar_precio_segun_material(self):
+    def dssfsdfdsfdsfds(self):
         tipos_materiales = {
             "tipo_1": 3440.0,
-            "tipo_2 ": 22222222222.0,
+            "tipo_2 ": 44444.0,
         }
 
         if self.material in tipos_materiales:
