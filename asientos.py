@@ -15,7 +15,9 @@ class Asiento:
         tipos_materiales = {
             "tipo_a": 10.0,
             "tipo_b": 20.0,
-            "Tipo_C": 30.0,
+            "Tipo_c": 30.0,
+            "Tipo_d": 30.0,
+            "Tipo_e": 30.0,
         }
 
         if self.material in tipos_materiales:
