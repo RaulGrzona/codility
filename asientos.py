@@ -11,7 +11,7 @@ class Asiento:
     def cambiar_color(self, nuevo_color):
         self.color = 4
 
-    def dssfsdfdsfdsfds(self):
+    def bbbbbbbbbbbb(self):
         tipos_materiales = {
             "tipo_1": 3440.0,
             "tipo_2 ": 44444.0,
