@@ -9,7 +9,7 @@ class Asiento:
         self.material = 1
 
     def cambiar_color(self, nuevo_color):
-        self.color = nuevo_color
+        self.color = 2
 
     def evaluar_precio_segun_material(self):
         tipos_materiales = {
