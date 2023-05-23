@@ -13,8 +13,8 @@ class Asiento:
 
     def evaluar_precio_segun_material(self):
         tipos_materiales = {
-            "tipo_a": 10.0,
-            "tipo_b": 20.0,
+            "tipo_1": 10.0,
+            "tipo_2": 20.0,
         }
 
         if self.material in tipos_materiales:
