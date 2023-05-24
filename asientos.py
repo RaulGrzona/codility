@@ -19,7 +19,7 @@ class Asiento:
 
         if self.material in tipos_materiales:
             return tipos_materiales[self.material]
-        return 30.0
+        return 3333333.0
 
     def metodo_b(self):
         return 2
